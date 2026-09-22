@@ -63,6 +63,9 @@ img { display: block; max-width: 80%; }
 .exp__periodo { position: absolute; right: 20px; bottom: 16px; font-size: 1.55rem; }
 
 /* Responsivo */
+@media (max-width: 1206px) {
+  .logo { max-width:50%;}
+}
 @media (max-width: 1000px) {
   .header__nav{font-size:15px;padding: 0px 30px 0px 0px;}
   .footer { font-size: 1.3rem; }
