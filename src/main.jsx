@@ -8,7 +8,6 @@ import './styles.css'
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HashRouter>
-      {/* respeita "reduzir movimento" do sistema */}
       <MotionConfig reducedMotion="user">
         <App />
       </MotionConfig>
