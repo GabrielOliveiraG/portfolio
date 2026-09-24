@@ -1,12 +1,12 @@
 {
   "name": "portfolio-gbrl",
-  "homepage":"https://gabrieloliveirag.github.io/portfolio/",
+  "homepage": "https://gabrieloliveirag.github.io/portfolio/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",    
-    "predeploy": "npm run build",    
+    "dev": "vite --host",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
