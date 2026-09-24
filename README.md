@@ -2,5 +2,5 @@
 
     npm install
     npm run dev
-    preview:
+    preview: https://gabrieloliveirag.github.io/portfolio/#/sobre
 
