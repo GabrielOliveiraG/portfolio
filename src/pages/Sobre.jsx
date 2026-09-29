@@ -18,6 +18,7 @@ const experiencias = [
     descricao: [
       'Administrar e manter banco de dados SQL Server e Microsoft Access.',
       'Análises de Business Intelligence para Trade Marketing.',
+      'Gerar relatórios e relacionar dados em excel para o setor de Vendas.',
     ],
   },
   {
@@ -25,17 +26,20 @@ const experiencias = [
     logo: '/images/getwi.svg',
     cargo: 'Desenvolvedor Front-End',
     periodo: '2016-2017',
-    descricao: ['Desenvolvi painéis internos utilizando jQuery, AngularJS, Node 11 e Gulp 3, facilitando operações diárias da equipe.'],
+    descricao: ['Desenvolver painéis e Dashboards utilizando AngularJS, jQuery e NodeJS.',
+       'Manutenção de Notebook e HelpDesk.',
+      ],
   },
   {
     empresa: 'CAZAMBA',
     logo: '/images/cazamba.svg',
     cargo: 'Desenvolvedor Front-End',
     periodo: '2017-2026',
-    descricao: [
-      'Dashboards internos utilizando Angular 8+, Node.js e Gulp.',
-      'Banners Rich Media para mercados de publicidade online e programática.',
-      'Desenvolvi projetos de Marketing Digital e Publicidade, coordenando estratégias criativas para campanhas.',
+    descricao: ['Formação e Liderança de equipe para executar projetos publicitários usando Scrum com entregas em sprints, code review, reuniões quinzenais e Kanban(Trello).',
+      'Gerenciamento de equipe em projetos de painéis e landing pages personalizadas, mudança de identidade visual e materiais internos para uso comercial (MidiaKit, Infográficos e apresentações personalizadas).',
+      'Desenvolvi painéis para uso interno, utilizando Angular, TypeScript, RxJs, Node JS e Gulp.',
+      'Criação e motion de banners publicitários de alto impacto com GreenSock e com integração de tecnologias e conexão com API.',
+      'Desenvolvi projetos de Marketing Digital e Publicidade, coordenando estratégias criativas para campanhas online.',
     ],
   },
 ]
@@ -76,8 +80,9 @@ export default function Sobre() {
               <div className="exp__body">
                 <h3>{e.empresa}</h3>
                 <h4>{e.cargo}</h4>
-                {e.descricao.map((d) => <p key={d}>{d}</p>)}
+               {e.descricao.map((d) => <p key={d}> &bull;{d}</p>)}    
               </div>
+              <br></br>
               <span className="exp__periodo">{e.periodo}</span>
             </motion.article>
           ))}
