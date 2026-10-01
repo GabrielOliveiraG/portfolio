@@ -7,6 +7,7 @@ export default function Header() {
       <nav className="header__nav">
         <NavLink to="/" end>Home</NavLink>
         <NavLink to="/sobre">Sobre</NavLink>
+         <NavLink to="/cases">Cases</NavLink>
       </nav>
 
       <Link to="/" className="logo" aria-label="Front-end Dev">

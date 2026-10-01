@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Sobre from './pages/Sobre'
+import Cases from './pages/Cases'
 
 export default function App() {
   const location = useLocation()
@@ -15,6 +16,7 @@ export default function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre />} />
+           <Route path="/cases" element={<Cases />} />
         </Routes>
       </AnimatePresence>
       <Footer />

@@ -9,7 +9,7 @@ export default function Home() {
       <SplitText className="home__name">GABRIEL DE OLIVEIRA GONÇALVES</SplitText>
 
       <motion.p className="home__role" variants={fade}>
-        FRONT-END DEV, CREATIVE MANAGER<br />
+        DESENVOLVEDOR FRONT-END | GERENTE DE CRIAÇÃO<br />
         ANGULAR E REACT<br />
         SÃO PAULO – BRASIL
       </motion.p>
