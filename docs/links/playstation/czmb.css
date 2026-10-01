@@ -1,0 +1,94 @@
+/* BOTTOM */
+#czmb-b-bg{position:absolute;left:0px;bottom:0px;width:730px;height:50px;z-index:1}
+#czmb-b-ghost{position:absolute;left:483px;bottom:-1px;width:238px;height:98px;z-index:2}
+#czmb-b-t3{position:absolute;left:156px;bottom:12px;width:309px;height:17px;z-index:2}
+#czmb-b-t2{position:absolute;left:226px;bottom:12px;width:149px;height:21px;z-index:3}
+#czmb-b-logo2{position:absolute;left:287px;bottom:5px;width:139px;height:39px;z-index:4}
+#czmb-b-bg-logo{position:absolute;left:0px;bottom:2px;width:133px;height:48px;z-index:5}
+#czmb-b-logo{position:absolute;left:8px;bottom:26px;width:62px;height:13px;z-index:6}
+#czmb-b-cd{position:absolute;left:640px;bottom:7px;width:71px;height:83px;z-index:7}
+
+
+/* TOP */
+#czmb-t-bg{position:absolute;left:0px;bottom:4px;width:1000px;height:556px;z-index:1}
+#czmb-t-mask{position:absolute;left:0px;bottom:0px;width:1000px;height:370px;z-index:2;overflow:hidden;}
+#czmb-t-logo2{position:absolute;left:107px;bottom:129px;width:349px;height:98px;z-index:3}
+#czmb-t-video{position:absolute;left:541px;bottom:318px;width:401px;height:226px;z-index:4}
+#czmb-t-cd{position:absolute;left:637px;bottom:58px;width:211px;height:258px;z-index:4}
+#czmb-t-bg-logo{position:absolute;left:0px;bottom:298px;width:213px;height:76px;z-index:5}
+#czmb-t-logo{position:absolute;left:28px;bottom:335px;width:73px;height:18px;z-index:6}
+#czmb-t-low{position:absolute;left:810px;bottom:139px;width:190px;height:88px;z-index:7}
+#czmb-t-t-low{position:absolute;left:843px;bottom:173px;width:155px;height:20px;z-index:8}
+#czmb-t-barra{position:absolute;left:531px;bottom:307px;width:420px;height:250px;z-index:8}
+#czmb-t-btn{position:absolute;left:179px;bottom:43px;width:205px;height:43px;z-index:10}
+#czmb-t-o3{position:absolute;left:63px;bottom:43px;width:48px;height:34px;z-index:11}
+#czmb-t-o2{position:absolute;left:23px;bottom:44px;width:33px;height:33px;z-index:12}
+#czmb-t-t-legal{position:absolute;left:420px;bottom:41px;width:549px;height:23px;z-index:13}
+.czmb-t-momiji{position:absolute;width:15px;height:15px;background:url(top/czmb-t-momiji.png);  background-size: 100% 100%;z-index:13}
+
+#czmb-t-video{position:absolute;z-index:14;width:100%;height:200%;left:0px;bottom:-50%; pointer-events: none;}
+#czmb-t-video-mask{position:absolute;left:541px;bottom:318px;width:401px;height:226px;z-index:14;overflow:hidden;}
+
+
+/* New Classics */
+#czmb-wide {
+    overflow: visible;
+    position: fixed;
+    z-index: 2147483647 !important;
+    bottom: 0;
+    left:50%;
+    margin-left: -365px;
+    width: 730px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#czmb-b {
+    overflow: visible;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 730px !important;
+    height: 50px !important;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 10px #004a69;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    z-index: 1 !important
+}
+
+#czmb-t {
+    position: absolute;
+    margin-left: -135px;
+    left: 0;
+    width: 1000px !important;
+    height: 600px !important;
+    cursor: pointer;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 2 !important;
+    overflow: hidden;
+    background: 0 0
+}
+
+#czmb-t-close {
+    position: fixed;
+    left: 50%;
+    margin-left: 475px;
+    bottom: -100px;
+    z-index: 2147483646 !important;
+    width: 50px;
+    height: 50px
+}
+
+#czmb-expansion-load {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #00f;
+    z-index: 90000;
+    width: 0%
+}

@@ -1,0 +1,125 @@
+/* BOTTOM */
+#czmb-b-bg{position:absolute;left:0px;bottom:0px;width:730px;height:50px;z-index:1}
+#czmb-b-e1{position:absolute;left:0px;bottom:1px;width:98px;height:98px;z-index:2}
+#czmb-b-e2{position:absolute;left:1px;bottom:0px;width:97px;height:98px;z-index:3}
+#czmb-b-t1{position:absolute;left:238px;bottom:17px;width:396px;height:17px;z-index:4}
+#czmb-b-t2{position:absolute;left:236px;bottom:14px;width:403px;height:18px;z-index:5}
+#czmb-b-t3{position:absolute;left:333px;bottom:18px;width:219px;height:14px;z-index:6}
+#czmb-b-t4{position:absolute;left:261px;bottom:18px;width:361px;height:14px;z-index:7}
+#czmb-b-logo2{position:absolute;left:98px;bottom:4px;width:109px;height:42px;z-index:8}
+#czmb-b-logo{position:absolute;left:671px;bottom:6px;width:51px;height:38px;z-index:9}
+
+/* TOP */
+
+#czmb-t-video1{position:absolute;z-index:9;width:100%;height:200%;left:0px;bottom:-50%; pointer-events: none;}
+#czmb-t-video2{position:absolute;z-index:9;width:100%;height:200%;left:0px;bottom:-50%; pointer-events: none;}
+#czmb-t-video1-mask{position:absolute;left:17px;bottom:159px;width:369px;height:208px;z-index:19;overflow:hidden;}
+#czmb-t-video2-mask{position:absolute;left:17px;bottom:159px;width:369px;height:208px;z-index:36;overflow:hidden;}
+
+#czmb-t-bg{position:absolute;left:0px;bottom:0px;width:1000px;height:600px;z-index:1}
+#czmb-t-t1{position:absolute;left:354px;bottom:330px;width:284px;height:85px;z-index:2}
+#czmb-t-t2{position:absolute;left:327px;bottom:228px;width:348px;height:59px;z-index:3}
+#czmb-t-t3{position:absolute;left:340px;bottom:124px;width:333px;height:87px;z-index:4}
+#czmb-t-b-p1{position:absolute;left:162px;bottom:0px;width:271px;height:434px;z-index:5}
+#czmb-t-p1{position:absolute;left:0px;bottom:-1px;width:233px;height:448px;z-index:8}
+#czmb-t-b-p2{position:absolute;left:565px;bottom:0px;width:284px;height:434px;z-index:7}
+#czmb-t-p2{position:absolute;left:745px;bottom:0px;width:255px;height:472px;z-index:8}
+#czmb-t-v-bg{position:absolute;left:0px;bottom:0px;width:1000px;height:600px;z-index:9}
+#czmb-t-v-p1{position:absolute;left:406px;bottom:151px;width:143px;height:223px;z-index:10}
+#czmb-t-v-p2{position:absolute;left:553px;bottom:151px;width:143px;height:223px;z-index:11}
+#czmb-t-v-p3{position:absolute;left:702px;bottom:151px;width:143px;height:223px;z-index:12}
+#czmb-t-v-p4{position:absolute;left:849px;bottom:151px;width:143px;height:223px;z-index:13}
+#czmb-t-v-n1{position:absolute;left:428px;bottom:110px;width:100px;height:30px;z-index:14}
+#czmb-t-v-n2{position:absolute;left:581px;bottom:109px;width:93px;height:30px;z-index:15}
+#czmb-t-v-n3{position:absolute;left:726px;bottom:108px;width:94px;height:30px;z-index:16}
+#czmb-t-v-n4{position:absolute;left:870px;bottom:108px;width:70px;height:30px;z-index:17}
+#czmb-t-video1-bg{position:absolute;left:14px;bottom:155px;width:374px;height:214px;z-index:18}
+#czmb-t-v-t2{position:absolute;left:33px;bottom:387px;width:928px;height:20px;z-index:20}
+#czmb-t-v-t1{position:absolute;left:59px;bottom:407px;width:875px;height:20px;z-index:21}
+#czmb-t-v-ttl{position:absolute;left:77px;bottom:450px;width:846px;height:33px;z-index:22}
+#czmb-t-v-t-cta{position:absolute;left:28px;bottom:104px;width:318px;height:18px;z-index:23}
+#czmb-t-cta-pretos{position:absolute;left:93px;bottom:24px;width:188px;height:54px;z-index:24}
+#czmb-t-v-cta{position:absolute;left:612px;bottom:23px;width:188px;height:54px;z-index:25}
+#czmb-t-p-bg{position:absolute;left:0px;bottom:0px;width:1000px;height:600px;z-index:26}
+#czmb-t-p-p1{position:absolute;left:406px;bottom:150px;width:143px;height:224px;z-index:27}
+#czmb-t-p-p2{position:absolute;left:553px;bottom:150px;width:143px;height:224px;z-index:28}
+#czmb-t-p-p3{position:absolute;left:702px;bottom:150px;width:143px;height:224px;z-index:29}
+#czmb-t-p-p4{position:absolute;left:849px;bottom:150px;width:143px;height:224px;z-index:30}
+#czmb-t-p-n1{position:absolute;left:430px;bottom:110px;width:93px;height:29px;z-index:31}
+#czmb-t-p-n2{position:absolute;left:581px;bottom:109px;width:93px;height:30px;z-index:32}
+#czmb-t-p-n3{position:absolute;left:726px;bottom:108px;width:94px;height:30px;z-index:33}
+#czmb-t-p-n4{position:absolute;left:865px;bottom:108px;width:83px;height:30px;z-index:34}
+#czmb-t-video2-bg{position:absolute;left:14px;bottom:155px;width:374px;height:214px;z-index:35}
+#czmb-t-p-t2{position:absolute;left:23px;bottom:393px;width:956px;height:19px;z-index:37}
+#czmb-t-p-t1{position:absolute;left:23px;bottom:415px;width:954px;height:17px;z-index:38}
+#czmb-t-p-ttl{position:absolute;left:78px;bottom:450px;width:843px;height:33px;z-index:39}
+#czmb-t-p-t-cta{position:absolute;left:28px;bottom:104px;width:318px;height:18px;z-index:40}
+#czmb-t-cta-verdes{position:absolute;left:93px;bottom:24px;width:188px;height:54px;z-index:41}
+#czmb-t-p-cta{position:absolute;left:612px;bottom:23px;width:188px;height:54px;z-index:42}
+#czmb-t-hotd{position:absolute;left:343px;bottom:438px;width:308px;height:149px;z-index:43}
+#czmb-t-hotd-pos2{position:absolute;left:424px;bottom:501px;width:152px;height:72px;z-index:44}
+#czmb-t-logo{position:absolute;left:28px;bottom:528px;width:68px;height:49px;z-index:45}
+
+/* New Classics */
+
+#czmb-wide {
+    overflow: visible;
+    position: fixed;
+    z-index: 2147483646 !important;
+    bottom: 0;
+    left:50%;
+    margin-left: -365px;
+    width: 730px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#czmb-b {
+    overflow: visible;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 730px !important;
+    height: 50px !important;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 2px 2px 10px #004a69;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    z-index: 1 !important
+}
+
+#czmb-t {
+    position: absolute;
+    margin-left: -135px;
+    left: 0;
+    width: 1000px !important;
+    height: 600px !important;
+    cursor: pointer;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 2 !important;
+    overflow: hidden;
+    background: 0 0
+}
+
+#czmb-t-close {
+    position: fixed;
+    left: 50%;
+    margin-left: 475px;
+    bottom: -100px;
+    z-index: 2147483646 !important;
+    width: 50px;
+    height: 50px
+}
+
+#czmb-expansion-load {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #f00;
+    z-index: 90000;
+    width: 0%
+}
