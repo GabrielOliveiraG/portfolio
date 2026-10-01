@@ -62,7 +62,7 @@ export default function Sobre() {
           {cases.map((e) => (
             <motion.article key={e.cliente} className="cases__item" variants={slide} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }}>
               <img className="exp__logo" src={e.logo} alt="" />
-              <div className="exp__body">
+              <div className="cases__body">
                 <h3>{e.cliente}</h3>
                {e.descricao.map((d) => <p key={d}> &bull;  {d}</p>)}    
               </div>
