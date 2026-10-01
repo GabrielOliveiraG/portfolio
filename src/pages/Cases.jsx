@@ -44,18 +44,16 @@ const cases = [
 export default function Sobre() {
   return (
     <main className="page sobre home__background">
-      {/* Topo: texto + foto de perfil */}
       <motion.section className="sobre__top" variants={stagger} initial="hidden" animate="show">
         <div>
           <SplitText className="sobre__title">ALGUNS CASES.</SplitText>
-          <motion.p className="sobre__bio" variants={fade}>
+          <motion.p className="sobre__bio">
             Durante meu tempo de serviço na Cazamba, fui responsável por organizar, gerênciar, executar e planejar diversos banners de clientes diferentes.
-            <br></br>
-            <p className="cases__alert">Os cases serão melhor visualizados enquanto usar um desktop.</p>
           </motion.p>
+          <br></br>
+          <p className="cases__alert">Os cases serão melhor visualizados enquanto usar um desktop.</p>
         </div>
       </motion.section>
-
       <section className="cases__bottom">
         <motion.h2 variants={fade} initial="hidden" whileInView="show" viewport={{ once: true }}>CASES</motion.h2>
         <div className="exp cases__exp">          
@@ -72,6 +70,19 @@ export default function Sobre() {
               </motion.a>
             </motion.article>
           ))}
+        </div>
+      </section>
+      <section className="cases__bottom" variants={stagger} initial="hidden" animate="show">
+        <SplitText className="cases__wstitle">WEBSITE CAZAMBA</SplitText>
+        <div className="cases__wssection">
+          <motion.article className="cases__bio">
+            <p>Liderando a equipe criativa, gerenciei o projeto de atualização do Website da Cazamba em 2025.</p>
+            <p>Tive a honra de liderar a incrível equipe criativa durante a atualização de identidade visual e arquivos internos da Cazamba. Clique abaixo para ver o resultado.</p>
+            <motion.a className="cases__website" href="https://www.cazamba.com" target='_blank' rel='noopener noreferrer'>
+              VEJA
+            </motion.a>
+          </motion.article>
+          <motion.img className="cases__img" src="/images/ws_cazamba.png" alt="Print do Website Cazamba atualizado." />
         </div>
       </section>
     </main>

@@ -64,7 +64,7 @@ img { display: block; max-width: 80%; }
 
 
 .cases__item { position: relative; display: grid; gap: 0 4px; padding: 24px 0 18px; border-bottom: 1px solid var(--accent-dim); }
-.cases__bottom { display: grid; gap: 30px; padding: 70px 0 80px; }
+.cases__bottom { display: grid; gap: 10px; padding: 50px 0 80px; }
 .cases__body p { display:grid; grid-template-columns: 360px;  font-size: 1.05rem; line-height: 1.25; max-width: 44ch; margin-top:10px;}
 
 .cases__item { position: relative; display: grid; grid-template-columns: 84px 1fr; gap: 0 4px; padding: 24px 0 18px; border-bottom: 1px solid var(--accent-dim); }
@@ -75,7 +75,24 @@ img { display: block; max-width: 80%; }
 }
 .cases__btn svg { font-size: 2.2rem; }
 .cases__btn:hover { background: var(--accent); color: var(--bg); }
+
+.cases__wstitle { font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 400; letter-spacing: .03em; margin-bottom: 40px; }
+.cases__bio {font-size: 1.35rem; line-height: 1.4; max-width: 60ch; margin-bottom: 30px; }
+
+.cases__img {position:relative;left:10%;object-fit: cover; border-radius: 8px; }
+.cases__website {
+  display: block; align-items: center;height: 68px; width:180px; padding: 19px 41px 0 60px;
+  border: 2px solid var(--accent); border-radius: 8px; font-size: 1.15rem; letter-spacing: .06em;
+  transition: background .25s, color .25s; margin-top:40px;
+}
+.cases__website svg { font-size: 2.2rem; }
+.cases__website:hover { background: var(--accent); color: var(--bg); }
 .cases__exp{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.cases__wssection{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
@@ -96,6 +113,12 @@ img { display: block; max-width: 80%; }
       grid-template-columns: repeat(1, 1fr);
       gap: 50px;
   }
+  .cases__wssection{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+}
+.cases__img {position:relative;left: 0;object-fit: cover; border-radius: 8px; }
   .cases__btn {
     position:initial; align-items: center; gap: 14px; height: 50px; width:180px; padding: 0 44px 0 38px;
     border: 2px solid var(--accent); border-radius: 8px; font-size: 1.15rem; letter-spacing: .06em;
